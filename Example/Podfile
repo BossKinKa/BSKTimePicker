@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BSKTimePicker_Tests' do
+  pod 'BSKTimePicker', :path => '../'
+  
+  
+end
