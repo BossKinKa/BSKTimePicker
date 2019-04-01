@@ -1,0 +1,24 @@
+PODS:
+  - BSKTimePicker (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - BSKTimePicker (from `../`)
+  - Masonry (= 1.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  BSKTimePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BSKTimePicker: 2db0e7fc1bc300ee1a90947a1ff2ac630085a5e7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: ed3618bcdd6aafe9bb84c2e2ddd148bc154c2cef
+
+COCOAPODS: 1.5.3

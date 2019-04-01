@@ -7,17 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		062E8632B4467A8EEBA99C63 /* Pods_BSKTimePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8B82DC00A4A3D8F7C62389 /* Pods_BSKTimePicker_Tests.framework */; };
+		4DBDFD962251B42C00A6D29A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBDFD952251B42C00A6D29A /* AppDelegate.m */; };
+		4DBDFD992251B42C00A6D29A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBDFD982251B42C00A6D29A /* ViewController.m */; };
+		4DBDFD9C2251B42C00A6D29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBDFD9A2251B42C00A6D29A /* Main.storyboard */; };
+		4DBDFD9E2251B42D00A6D29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBDFD9D2251B42D00A6D29A /* Assets.xcassets */; };
+		4DBDFDA12251B42D00A6D29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBDFD9F2251B42D00A6D29A /* LaunchScreen.storyboard */; };
+		4DBDFDA42251B42D00A6D29A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBDFDA32251B42D00A6D29A /* main.m */; };
+		4DBDFDAC2251B47D00A6D29A /* BSKDemoMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBDFDA92251B47D00A6D29A /* BSKDemoMainTableViewController.m */; };
+		4DBDFDAD2251B47D00A6D29A /* BSKDemoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBDFDAA2251B47D00A6D29A /* BSKDemoDetailViewController.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		A7A87BAD41ACA077F4366058 /* Pods_BSKTimePickerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7905C547DCD6F93CDB9C59C /* Pods_BSKTimePickerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		376BED5563FF38AF2E43A383 /* Pods-BSKTimePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSKTimePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSKTimePicker_Tests/Pods-BSKTimePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3BCFC2053EB1492B3EAE62BB /* Pods-BSKTimePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSKTimePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSKTimePicker_Tests/Pods-BSKTimePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DBDFD922251B42C00A6D29A /* BSKTimePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSKTimePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBDFD942251B42C00A6D29A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DBDFD952251B42C00A6D29A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DBDFD972251B42C00A6D29A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DBDFD982251B42C00A6D29A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DBDFD9B2251B42C00A6D29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DBDFD9D2251B42D00A6D29A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DBDFDA02251B42D00A6D29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DBDFDA22251B42D00A6D29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBDFDA32251B42D00A6D29A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DBDFDA82251B47C00A6D29A /* BSKDemoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKDemoDetailViewController.h; sourceTree = "<group>"; };
+		4DBDFDA92251B47D00A6D29A /* BSKDemoMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKDemoMainTableViewController.m; sourceTree = "<group>"; };
+		4DBDFDAA2251B47D00A6D29A /* BSKDemoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKDemoDetailViewController.m; sourceTree = "<group>"; };
+		4DBDFDAB2251B47D00A6D29A /* BSKDemoMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKDemoMainTableViewController.h; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,13 +47,24 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		D12897A26DC1E13DF4B8055B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D253AEB174D8B37434B1ABF8 /* BSKTimePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BSKTimePicker.podspec; path = ../BSKTimePicker.podspec; sourceTree = "<group>"; };
-		EEB36934458961F4B621C6C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6C7032C20D68194A51DC92A2 /* Pods-BSKTimePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSKTimePickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSKTimePickerDemo/Pods-BSKTimePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C7905C547DCD6F93CDB9C59C /* Pods_BSKTimePickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSKTimePickerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06A4AC3A858E3FF860CF992 /* Pods-BSKTimePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSKTimePickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSKTimePickerDemo/Pods-BSKTimePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D12897A26DC1E13DF4B8055B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D253AEB174D8B37434B1ABF8 /* BSKTimePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BSKTimePicker.podspec; path = ../BSKTimePicker.podspec; sourceTree = "<group>"; };
+		EEB36934458961F4B621C6C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FB8B82DC00A4A3D8F7C62389 /* Pods_BSKTimePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSKTimePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4DBDFD8F2251B42C00A6D29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A87BAD41ACA077F4366058 /* Pods_BSKTimePickerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AB195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,18 +72,37 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				062E8632B4467A8EEBA99C63 /* Pods_BSKTimePicker_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DBDFD932251B42C00A6D29A /* BSKTimePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4DBDFD942251B42C00A6D29A /* AppDelegate.h */,
+				4DBDFD952251B42C00A6D29A /* AppDelegate.m */,
+				4DBDFD972251B42C00A6D29A /* ViewController.h */,
+				4DBDFD982251B42C00A6D29A /* ViewController.m */,
+				4DBDFD9A2251B42C00A6D29A /* Main.storyboard */,
+				4DBDFD9D2251B42D00A6D29A /* Assets.xcassets */,
+				4DBDFD9F2251B42D00A6D29A /* LaunchScreen.storyboard */,
+				4DBDFDA22251B42D00A6D29A /* Info.plist */,
+				4DBDFDA32251B42D00A6D29A /* main.m */,
+				4DBDFDA82251B47C00A6D29A /* BSKDemoDetailViewController.h */,
+				4DBDFDAA2251B47D00A6D29A /* BSKDemoDetailViewController.m */,
+				4DBDFDAB2251B47D00A6D29A /* BSKDemoMainTableViewController.h */,
+				4DBDFDA92251B47D00A6D29A /* BSKDemoMainTableViewController.m */,
+			);
+			path = BSKTimePickerDemo;
+			sourceTree = "<group>";
+		};
 		57405E3CE1CE9E8F9FB32C51 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3BCFC2053EB1492B3EAE62BB /* Pods-BSKTimePicker_Tests.debug.xcconfig */,
-				376BED5563FF38AF2E43A383 /* Pods-BSKTimePicker_Tests.release.xcconfig */,
+				6C7032C20D68194A51DC92A2 /* Pods-BSKTimePickerDemo.debug.xcconfig */,
+				D06A4AC3A858E3FF860CF992 /* Pods-BSKTimePickerDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -62,6 +112,7 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
+				4DBDFD932251B42C00A6D29A /* BSKTimePickerDemo */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				57405E3CE1CE9E8F9FB32C51 /* Pods */,
@@ -72,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F5AE195388D20070C39A /* BSKTimePicker_Tests.xctest */,
+				4DBDFD922251B42C00A6D29A /* BSKTimePickerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +136,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				FB8B82DC00A4A3D8F7C62389 /* Pods_BSKTimePicker_Tests.framework */,
+				C7905C547DCD6F93CDB9C59C /* Pods_BSKTimePickerDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,15 +173,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4DBDFD912251B42C00A6D29A /* BSKTimePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBDFDA72251B42D00A6D29A /* Build configuration list for PBXNativeTarget "BSKTimePickerDemo" */;
+			buildPhases = (
+				2EC89F3781145A547EFD0D75 /* [CP] Check Pods Manifest.lock */,
+				4DBDFD8E2251B42C00A6D29A /* Sources */,
+				4DBDFD8F2251B42C00A6D29A /* Frameworks */,
+				4DBDFD902251B42C00A6D29A /* Resources */,
+				2490487A58E9349EAA185A8B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSKTimePickerDemo;
+			productName = BSKTimePickerDemo;
+			productReference = 4DBDFD922251B42C00A6D29A /* BSKTimePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6003F5AD195388D20070C39A /* BSKTimePicker_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BSKTimePicker_Tests" */;
 			buildPhases = (
-				AA30BDA66DE6288C38C7E7EB /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				C2FF600C524D97331BD0EBA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +219,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = BossKinKa;
 				TargetAttributes = {
+					4DBDFD912251B42C00A6D29A = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -168,11 +242,22 @@
 			projectRoot = "";
 			targets = (
 				6003F5AD195388D20070C39A /* BSKTimePicker_Tests */,
+				4DBDFD912251B42C00A6D29A /* BSKTimePickerDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4DBDFD902251B42C00A6D29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBDFDA12251B42D00A6D29A /* LaunchScreen.storyboard in Resources */,
+				4DBDFD9E2251B42D00A6D29A /* Assets.xcassets in Resources */,
+				4DBDFD9C2251B42C00A6D29A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AC195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,7 +269,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AA30BDA66DE6288C38C7E7EB /* [CP] Check Pods Manifest.lock */ = {
+		2490487A58E9349EAA185A8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BSKTimePickerDemo/Pods-BSKTimePickerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BSKTimePicker/BSKTimePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSKTimePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSKTimePickerDemo/Pods-BSKTimePickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC89F3781145A547EFD0D75 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,38 +308,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BSKTimePicker_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BSKTimePickerDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C2FF600C524D97331BD0EBA4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BSKTimePicker_Tests/Pods-BSKTimePicker_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BSKTimePicker/BSKTimePicker.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSKTimePicker.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSKTimePicker_Tests/Pods-BSKTimePicker_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4DBDFD8E2251B42C00A6D29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBDFDAD2251B47D00A6D29A /* BSKDemoDetailViewController.m in Sources */,
+				4DBDFDAC2251B47D00A6D29A /* BSKDemoMainTableViewController.m in Sources */,
+				4DBDFD992251B42C00A6D29A /* ViewController.m in Sources */,
+				4DBDFDA42251B42D00A6D29A /* main.m in Sources */,
+				4DBDFD962251B42C00A6D29A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AA195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +341,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4DBDFD9A2251B42C00A6D29A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBDFD9B2251B42C00A6D29A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DBDFD9F2251B42D00A6D29A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBDFDA02251B42D00A6D29A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -253,6 +368,85 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4DBDFDA52251B42D00A6D29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7032C20D68194A51DC92A2 /* Pods-BSKTimePickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BSKTimePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ys7.enterprise.BSKTimePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DBDFDA62251B42D00A6D29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06A4AC3A858E3FF860CF992 /* Pods-BSKTimePickerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BSKTimePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ys7.enterprise.BSKTimePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,7 +522,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BCFC2053EB1492B3EAE62BB /* Pods-BSKTimePicker_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -351,7 +544,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 376BED5563FF38AF2E43A383 /* Pods-BSKTimePicker_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -371,6 +563,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4DBDFDA72251B42D00A6D29A /* Build configuration list for PBXNativeTarget "BSKTimePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBDFDA52251B42D00A6D29A /* Debug */,
+				4DBDFDA62251B42D00A6D29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "BSKTimePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
